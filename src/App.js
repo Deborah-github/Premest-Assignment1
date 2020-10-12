@@ -1,17 +1,25 @@
 import React from 'react';
-import cloud from './img/cloud.jpg';
-import FirstComponents from './FirstComponent'
-import './App.css';
+import FirstComponent from './Components/FirstComponent'
+import './index.css';
+import SecondComponent from './Components/SecondComponent'
+import ThirdComponent from './Components/ThirdComponent'
+import FourToNineComponent from './Components/FourToNineComponent';
 
 function App() {
   return (
     <div>
-      <FirstComponents/> 
-       <p>This is a new world of premest</p>
-        <img src={cloud} alt='cloud and sunshine'/>
+      <FirstComponent/> 
+      <SecondComponent/>
+      <ThirdComponent/>
+      <FourToNineComponent/>
+     
     </div>
+
    
   );
 }
 
 export default App;
+
+
+

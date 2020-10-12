@@ -1,13 +1,84 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: o;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+  margin-left: 500px;
+}
+
+.contact{
+  margin-left: 80px;
+  
+}
+.submit{
+  float :right;
+  margin-right: 10px;
+}
+
+
+
+.bav{
+  list-style-type: none;
+  display: flex;
+  margin-left: 570px;
+}
+
+.ome{
+  padding-right: 20px;
+}
+
+.bout{
+  padding-right: 20px;
+}
+
+.service{
+  border: palevioletred 2px solid;
+  width: 100px;
+}
+
+.find{
+  border: palevioletred 2px solid;
+  width: 230px;
+  margin-left: 70px;
+}
+
+.pat{
+  border: palevioletred 2px solid;
+  width: 230px;
+  margin-left: 70px;
+
+}
+
+.back{
+
+  border: palevioletred 2px solid;
+  width: 230px;
+  margin-left: 70px;
+
+}
+.your{
+  
+  width: 230px;
+  margin-left: 70px;
+
+}
+
+.thank{
+  width: 430px;
+  margin-left: 70px;
+
+
+}
+
+.new{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.covid{
+  margin-left: 40px;
 }
